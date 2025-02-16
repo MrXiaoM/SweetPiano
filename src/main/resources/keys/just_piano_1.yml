@@ -1,0 +1,49 @@
+material: PAPER
+display: '标准音域 F#3~C#4'
+description:
+  - ''
+  - '  <white>快捷栏对应音高'
+  - '  <b><gray>1   2   3   4   5   6   7   8  '
+  - '  <b><#77D700>F#3 <#95C000>G3  <#B2A500>G#3 <#CC8600>A4  <#E26500>A#4 <#F34100>B4  <#FC1E00>C4  <#FE000F>C#4  '
+  - '<reset><!i>'
+keys:
+  1:
+    material: BLACK_CARPET
+    display: '<#77D700><b> F#3 '
+    sound: block.note_block.harp
+    note: 'F#3'
+  2:
+    material: WHITE_CARPET
+    display: '<#95C000><b> G3 '
+    sound: block.note_block.harp
+    note: 'G3'
+  3:
+    material: BLACK_CARPET
+    display: '<#B2A500><b> G#3 '
+    sound: block.note_block.harp
+    note: 'G#3'
+  4:
+    material: WHITE_CARPET
+    display: '<#CC8600><b> A4 '
+    sound: block.note_block.harp
+    note: 'A4'
+  5:
+    material: BLACK_CARPET
+    display: '<#E26500><b> A#4 '
+    sound: block.note_block.harp
+    note: 'A#4'
+  6:
+    material: WHITE_CARPET
+    display: '<#F34100><b> B4 '
+    sound: block.note_block.harp
+    note: 'B4'
+  7:
+    material: WHITE_CARPET
+    display: '<#FC1E00><b> C4 '
+    sound: block.note_block.harp
+    note: 'C4'
+  8:
+    material: BLACK_CARPET
+    display: '<#FE000F><b> C#4 '
+    sound: block.note_block.harp
+    note: 'C#4'

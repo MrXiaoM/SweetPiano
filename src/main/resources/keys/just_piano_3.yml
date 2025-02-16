@@ -1,0 +1,49 @@
+material: PAPER
+display: '标准音域 A#5~F5'
+description:
+  - ''
+  - '  <white>快捷栏对应音高'
+  - '  <b><gray>1   2   3   4   5   6   7   8  '
+  - '  <b>A#5 B5  C5  C#5 D5  D#5 E5  F5  '
+  - '<reset><!i>'
+keys:
+  1:
+    material: BLACK_CARPET
+    display: '<#0037F6><b> A#5 '
+    sound: block.note_block.harp
+    note: 'A#5'
+  2:
+    material: WHITE_CARPET
+    display: '<#0068E0><b> B5 '
+    sound: block.note_block.harp
+    note: 'B5'
+  3:
+    material: WHITE_CARPET
+    display: '<#009ABC><b> C5 '
+    sound: block.note_block.harp
+    note: 'C5'
+  4:
+    material: BLACK_CARPET
+    display: '<#00C68D><b> C#5 '
+    sound: block.note_block.harp
+    note: 'C#5'
+  5:
+    material: WHITE_CARPET
+    display: '<#00E958><b> D5 '
+    sound: block.note_block.harp
+    note: 'D5'
+  6:
+    material: BLACK_CARPET
+    display: '<#00FC21><b> D#5 '
+    sound: block.note_block.harp
+    note: 'D#5'
+  7:
+    material: WHITE_CARPET
+    display: '<#1FFC00><b> E5 '
+    sound: block.note_block.harp
+    note: 'E5'
+  8:
+    material: WHITE_CARPET
+    display: '<#59E800><b> F5 '
+    sound: block.note_block.harp
+    note: 'F5'

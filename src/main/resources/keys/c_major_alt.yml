@@ -1,0 +1,53 @@
+material: PAPER
+display: 'C大调'
+description:
+  - ''
+  - '  <white>快捷栏对应音高'
+  - '  <b><gray>1   2   3   4   5   6   7   8  '
+  - '  <b><#00E958>Re  <#1FFC00>Mi  <#59E800>Fa <#77D700>Fa  <#95C000>Sol <#CC8600>La  <#F34100>Ti  <#FC1E00>Do  '
+  - '  <b><#00E958>D5  <#1FFC00>E5  <#59E800>F5 <#77D700>F#3 <#95C000>G3  <#CC8600>A4  <#F34100>B4  <#FC1E00>C4  '
+  - '<reset><!i>  <gray>由于MC原版限制，音域范围只有 F#3~F#5'
+  - '  <gray>前三个高音，后面五个低音 <st>拼好音<reset><!i>'
+  - ''
+keys:
+  1:
+    material: WHITE_CARPET
+    display: '<#00E958><b> Re <gray>(↑)'
+    sound: block.note_block.harp
+    note: 'D5'
+  2:
+    material: WHITE_CARPET
+    display: '<#1FFC00><b> Mi <gray>(↑)'
+    sound: block.note_block.harp
+    note: 'E5'
+  3:
+    material: WHITE_CARPET
+    display: '<#59E800><b> Fa <gray>(↑)'
+    sound: block.note_block.harp
+    note: 'F5'
+  4:
+    material: WHITE_CARPET
+    display: '<#77D700><b> Fa <gray>(↓)'
+    sound: block.note_block.harp
+    # 没有办法了，音域最低只有 F#3
+    pitch: 0.5
+  5:
+    material: WHITE_CARPET
+    display: '<#95C000><b> Sol <gray>(↓)'
+    sound: block.note_block.harp
+    note: 'G3'
+  6:
+    material: WHITE_CARPET
+    display: '<#CC8600><b> La <gray>(↓)'
+    sound: block.note_block.harp
+    note: 'A4'
+  7:
+    material: WHITE_CARPET
+    display: '<#F34100><b> Ti <gray>(↓)'
+    sound: block.note_block.harp
+    note: 'B4'
+  8:
+    material: WHITE_CARPET
+    display: '<#FC1E00><b> Do '
+    sound: block.note_block.harp
+    note: 'C4'

@@ -1,0 +1,88 @@
+# 原版格式：'英文ID:子ID'
+# ItemsAdder：'ia-物品ID'
+material: PAPER
+display: 'C大调'
+description:
+  - ''
+  - '  <white>快捷栏对应音高'
+  - '  <b><gray>1   2   3   4   5   6   7   8  '
+  - '  <b><#FC1E00>Do  <#F70033>Re  <#CF0083>Mi  <#AE00A9>Fa  <#5B00E7>Sol <#020AFE>La  <#0068E0>Ti  <#009ABC>Do  '
+  - '  <b><#FC1E00>C4  <#F70033>D4  <#CF0083>E4  <#AE00A9>F4  <#5B00E7>G4  <#020AFE>A4  <#0068E0>B4  <#009ABC>C5  '
+  - '<reset><!i>'
+
+# sound 选项推荐使用的音效如下
+#（资料来自 Minecraft Wiki）
+#
+# 贝斯	block.note_block.bass
+# 小军鼓	block.note_block.snare
+# 踩镲	block.note_block.hat
+# 底鼓	block.note_block.basedrum
+# 竖琴/钢琴	block.note_block.harp
+#
+# 以下音效需要 1.12 或以上版本
+# 钟琴	block.note_block.bell	1.12
+# 长笛	block.note_block.flute	1.12
+# 管钟	block.note_block.chime	1.12
+# 吉他	block.note_block.guitar	1.12
+# 木琴	block.note_block.xylophone	1.12
+#
+# 以下音效需要 1.14 或以上版本
+# 颤音琴	block.note_block.iron_xylophone	1.14
+# 牛铃	block.note_block.cow_bell	1.14
+# 迪吉里杜管	block.note_block.didgeridoo	1.14
+# 方波	F♯3–F♯5	block.note_block.bit	1.14
+# 班卓琴	block.note_block.banjo	1.14
+# 电钢琴	F♯3–F♯5	block.note_block.pling	1.14
+
+keys:
+  1:
+    # 原版格式：'英文ID:子ID'
+    # ItemsAdder：'ia-物品ID'
+    material: WHITE_CARPET
+    # 物品名
+    display: '<#FC1E00><b> Do '
+    # 物品lore，可选
+    lore: []
+    # 音效
+    sound: block.note_block.harp
+    # 音高，note 与 pitch 二选一即可
+    # 音域范围 F#3~F#5
+    note: 'C4'
+    # 音调，note 与 pitch 二选一即可
+    # 建议用音高，会自动转换为音调
+    # pitch: 0.707107
+  2:
+    material: WHITE_CARPET
+    display: '<#F70033><b> Re '
+    sound: block.note_block.harp
+    note: 'D4'
+  3:
+    material: WHITE_CARPET
+    display: '<#CF0083><b> Mi '
+    sound: block.note_block.harp
+    note: 'E4'
+  4:
+    material: WHITE_CARPET
+    display: '<#AE00A9><b> Fa '
+    sound: block.note_block.harp
+    note: 'F4'
+  5:
+    material: WHITE_CARPET
+    display: '<#5B00E7><b> Sol '
+    sound: block.note_block.harp
+    note: 'G4'
+  6:
+    material: WHITE_CARPET
+    display: '<#020AFE><b> La '
+    sound: block.note_block.harp
+    note: 'A5'
+  7:
+    material: WHITE_CARPET
+    display: '<#0068E0><b> Ti '
+    sound: block.note_block.harp
+    note: 'B5'
+  8:
+    material: WHITE_CARPET
+    display: '<#009ABC><b> Do <gray>(↑)'
+    sound: block.note_block.harp
+    note: 'C5'

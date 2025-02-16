@@ -1,0 +1,49 @@
+material: PAPER
+display: '标准音域 D4~A5'
+description:
+  - ''
+  - '  <white>快捷栏对应音高'
+  - '  <b><gray>1   2   3   4   5   6   7   8  '
+  - '  <b><#F70033>D4  <#E8005A>D#4 <#CF0083>E4  <#AE00A9>F4  <#8600CC>F#4 <#5B00E7>G4  <#2D00F9>G#4 <#020AFE>A5  '
+  - '<reset><!i>'
+keys:
+  1:
+    material: WHITE_CARPET
+    display: '<#F70033><b> D4 '
+    sound: block.note_block.harp
+    note: 'D4'
+  2:
+    material: BLACK_CARPET
+    display: '<#E8005A><b> D#4 '
+    sound: block.note_block.harp
+    note: 'D#4'
+  3:
+    material: WHITE_CARPET
+    display: '<#CF0083><b> E4 '
+    sound: block.note_block.harp
+    note: 'E4'
+  4:
+    material: WHITE_CARPET
+    display: '<#AE00A9><b> F4 '
+    sound: block.note_block.harp
+    note: 'F4'
+  5:
+    material: BLACK_CARPET
+    display: '<#8600CC><b> F#4 '
+    sound: block.note_block.harp
+    note: 'F#4'
+  6:
+    material: WHITE_CARPET
+    display: '<#5B00E7><b> G4 '
+    sound: block.note_block.harp
+    note: 'G4'
+  7:
+    material: BLACK_CARPET
+    display: '<#2D00F9><b> G#4 '
+    sound: block.note_block.harp
+    note: 'G#4'
+  8:
+    material: WHITE_CARPET
+    display: '<#020AFE><b> A5 '
+    sound: block.note_block.harp
+    note: 'A5'
