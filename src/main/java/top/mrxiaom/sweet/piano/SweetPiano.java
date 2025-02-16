@@ -1,8 +1,8 @@
 package top.mrxiaom.sweet.piano;
         
-import org.jetbrains.annotations.NotNull;
+import de.tr7zw.changeme.nbtapi.utils.MinecraftVersion;
 import top.mrxiaom.pluginbase.BukkitPlugin;
-import top.mrxiaom.pluginbase.EconomyHolder;
+import top.mrxiaom.sweet.piano.utils.Notes;
 
 public class SweetPiano extends BukkitPlugin {
     public static SweetPiano getInstance() {
@@ -20,6 +20,14 @@ public class SweetPiano extends BukkitPlugin {
         );
     }
 
+    @Override
+    protected void beforeLoad() {
+        Notes.init();
+        MinecraftVersion.replaceLogger(getLogger());
+        MinecraftVersion.disableUpdateCheck();
+        MinecraftVersion.disableBStats();
+        MinecraftVersion.getVersion();
+    }
 
     @Override
     protected void afterEnable() {
