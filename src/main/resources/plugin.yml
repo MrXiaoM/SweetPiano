@@ -1,0 +1,11 @@
+name: SweetPiano
+version: '${version}'
+main: top.mrxiaom.sweet.piano.SweetPiano
+api-version: 1.13
+depend: [  ]
+softdepend: [ PlaceholderAPI ]
+authors: [ MrXiaoM ]
+commands:
+  sweetpiano:
+    description: 'The main command of SweetPiano'
+    aliases: [ sp, piano ]
